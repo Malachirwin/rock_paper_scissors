@@ -21,6 +21,7 @@ while true
       end
     end
   end
+  # comment here
   choices.each do |item|
     if input == item
       if !game.wins?(input, computers_choice) == false
